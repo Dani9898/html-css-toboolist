@@ -46,6 +46,10 @@ main {
 
 /* sezione adding */
 
+.allineamento {
+    margin-left: 30px;
+    padding-top: 30px;
+}
 #adding {
     height: 70px;
     border-bottom: 2px solid #F6F8F9;
@@ -56,13 +60,11 @@ input {
     padding: 3px;
     border: none;
     border-radius: 3px;
-    margin-top: 24px;
 }
 
 #bottone_azzurro {
     background-color: #14AAF5;
     color: white;
-    margin-left: 30px;
 }
 
 #bottone_bianco {
@@ -83,11 +85,19 @@ h3 {
 }
 
 #new_task div {
-    padding-top: 30px;
+   
 }
 
 .tick {
     border: 1px solid green;
     border-radius: 10px;
     color: green;
+}
+
+.editorial_style {
+    background-color: #14AAF5;
+    color: white;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 60%;
 }
