@@ -7,14 +7,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #F6F8F9;
 }
 
 
-
 /* header */
+header, main {
+    background-color: red;
+}
+
 header {
     height: 100px;
-    /* background-color: red; */
 }
 
 header h1 {
@@ -28,10 +31,16 @@ header div {
 
 
 /* main */
+#container {
+  
+}
 
 main {
     max-width: 80%;
     margin: auto;
+    margin-bottom: 5px;
+    background-color: red;
+    border-radius: 7px;
 }
 
 
@@ -39,7 +48,8 @@ main {
 
 #adding {
     height: 70px;
-    
+    border-bottom: 2px solid #F6F8F9;
+    margin-top: 30px;
 }
 
 input {
@@ -59,4 +69,25 @@ input {
     background-color: white;
     color: #C4CBD0;
     
+}
+
+
+/* sezione new task */
+.freccia {
+    font-size: 200%;
+    vertical-align:top;
+}
+
+h3 {
+    display: inline-block;
+}
+
+#new_task div {
+    padding-top: 30px;
+}
+
+.tick {
+    border: 1px solid green;
+    border-radius: 10px;
+    color: green;
 }
