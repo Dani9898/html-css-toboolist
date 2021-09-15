@@ -23,6 +23,8 @@ header {
 
 header h1 {
     display: inline-block;
+    vertical-align: bottom;
+    line-height: 2;
 }
 
 header div {
